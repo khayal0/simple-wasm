@@ -1,0 +1,14 @@
+{
+  "name": "simple-wasm",
+  "version": "1.0.0",
+  "description": "simple wasm project",
+  "main": "index.js",
+  "author": "khayalisakhanov",
+  "license": "MIT",
+  "scripts": {
+    "start": "wat2wasm simple.wat -o simple.wasm"
+  },
+  "dependencies": {
+    "wat2wasm": "^3.0.0"
+  }
+}

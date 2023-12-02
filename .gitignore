@@ -1,0 +1,9 @@
+# Node.js and npm
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# WebAssembly (Wasm) artifacts
+*.wasm
+
+.env
